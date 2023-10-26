@@ -7,7 +7,7 @@ module.exports = {
     mode: "production",
     plugins: [new MiniCssExtractPlugin(), new HtmlWebpackPlugin({
         template: path.resolve(__dirname, "src", "index.html")
-
+// sæt ny htmlwebpackplugin ind for hver ny html element
     })],
     module: {
         rules: [
